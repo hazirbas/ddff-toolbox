@@ -27,8 +27,8 @@ def refocus(light_field, calib_mat, output_folder, stack_size=10):
 
     for idx, disparity in enumerate(disparities):
         lfsize = (lf.shape[2], lf.shape[3])
-        uvcenter = np.asarray((np.asarray([lf.shape[0],lf.shape[1]])+1)/2) #Test this
-        image = np.zeros( lfsize + (3,)) #Test this
+        uvcenter = np.asarray((np.asarray([lf.shape[0],lf.shape[1]])+1)/2)
+        image = np.zeros( lfsize + (3,))
 
         for u in range(lf.shape[0]):
             for v in range(lf.shape[1]):
