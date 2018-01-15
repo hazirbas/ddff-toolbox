@@ -14,7 +14,7 @@ def refocus(light_field, calib_mat, output_folder, stack_size=10):
         return
     K2 = mat[1]
     fxy = mat[2:4]
-    flens = max(fxy);
+    flens = max(fxy)
     fsubaperture = 521.4052 # pixel
     baseline = K2/flens*1e-3 # meters
 
@@ -42,11 +42,11 @@ def refocus(light_field, calib_mat, output_folder, stack_size=10):
                 image = image + shifted
 
         
-        image = image / np.prod([lf.shape[0], lf.shape[1]]);
+        image = image / np.prod([lf.shape[0], lf.shape[1]])
         image = np.uint8(image * 255.0)
 
         #Convert RGB to BGR (OpenCV assumes image to be BGR) and write output image
-        cv2.imwrite(output_folder + "/" + "{0:02d}".format(idx+1) + ".png", cv2.cvtColor(image, cv2.COLOR_RGB2BGR));
+        cv2.imwrite(output_folder + "/" + "{0:02d}".format(idx+1) + ".png", cv2.cvtColor(image, cv2.COLOR_RGB2BGR))
 
 
 if __name__ == "__main__":
