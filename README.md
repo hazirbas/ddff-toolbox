@@ -1,5 +1,5 @@
 ## ddff-toolbox
-Toolbox for Deep Depth From Focus
+Toolbox for [Deep Depth From Focus](https://hazirbas.com/projects/ddff/) and [DDFF 12-Scene Benchmark](https://hazirbas.com/datasets/ddff12scene/)
 
 ## Citation
 Caner Hazirbas, Laura Leal-Taixé  and Daniel Cremers, _"Deep Depth From Focus"_, ArXiv, 2017. ([arXiv](https://arxiv.org/abs/1704.01085))
