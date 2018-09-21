@@ -1,8 +1,8 @@
-## ddff-toolbox
+# Deep Depth From Focus Toolbox
 Toolbox for [Deep Depth From Focus](https://hazirbas.com/projects/ddff/) and [DDFF 12-Scene Benchmark](https://hazirbas.com/datasets/ddff12scene/)
 
 ## Citation
-Caner Hazirbas, Laura Leal-Taixé  and Daniel Cremers, _"Deep Depth From Focus"_, ArXiv, 2017. ([arXiv](https://arxiv.org/abs/1704.01085))
+Caner Hazirbas, Sebastian Soyer, Maximilian Staab, Laura Leal-Taixé  and Daniel Cremers, _"Deep Depth From Focus"_, ACCV, 2018. ([arXiv](https://arxiv.org/abs/1704.01085))
 
     @inproceedings{hazirbas18ddff,
      author    = {C. Hazirbas and and S. Soyer and M. Staab and L. Leal-Taixé and D. Cremers},
@@ -10,8 +10,8 @@ Caner Hazirbas, Laura Leal-Taixé  and Daniel Cremers, _"Deep Depth From Focus"_
      booktitle = {Asian Conference on Computer Vision (ACCV)},
      year      = {2018},
      month     = {December},
-     eprint = {1704.01085},
-     url = {https://hazirbas.com/projects/ddff/},
+     eprint    = {1704.01085},
+     url       = {https://hazirbas.com/projects/ddff/},
     }
 
 ## License
